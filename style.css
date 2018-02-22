@@ -16,7 +16,11 @@ p {
 #header {
 	background-color: #7FFFD4;
 	width: 100%;
+	height: 100px;
 	padding: 10px;
+}
+#mainmenu {
+	
 }
 #body {
 	padding: 10px;
@@ -36,7 +40,7 @@ p {
 	margin-top: 44px;
 	border: 1px solid;
 	height: 32px;
-	padding: 8px;
+	padding: 0px;
 	
 }
 
@@ -45,7 +49,6 @@ footer {
 	border: 1px solid;
 	height: 32px;
 	padding: 8px;
-	display: table-row;
 	bottom: 0px;
 	}
 #container {
@@ -59,13 +62,36 @@ footer {
 	margin: auto;
 }
 	 
-#mainmenu {
-	
-}
+
 #content1 img {
 	width: 200px;
 	height: 200px;
 	margin: 0;
-	text-align: center;
 }
-
+#about img {
+	width: 500px;
+}
+#place img {
+	width: 400px;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
